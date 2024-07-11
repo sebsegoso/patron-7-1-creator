@@ -1,4 +1,5 @@
 #!/bin/bash
+#Limpiar consola
 clear
 # Nombre proyecto
 read -p "Ingrese el nombre del proyecto: " project_name
@@ -7,7 +8,7 @@ project_name=${project_name:-mi-proyectito}
 project_name=$(echo $project_name | tr ' ' '-')
 
 echo "Creando proyecto: " $project_name
-
+# creando directorio 
 mkdir -p $project_name
 cd $project_name
 
@@ -54,10 +55,10 @@ if [ "$use_sass" == "s" ]; then
 // shame
 @import "shame/shame";
 EOL
+echo "No olvides activar el watcher de Sass"
 
 else
     touch assets/css/style.css
-    touch assets/sass/style.scss
 fi
 
 # Crear un archivo HTML con el contenido solicitado
@@ -86,6 +87,7 @@ read -p "¿Desea inicializar git? (s/n): " git_init
 if [ "$git_init" == "s" ]; then
     echo "Inicializando git..."
     git init
+    touch .gitignore
 else
     echo "Ok, sin git"
 fi
@@ -99,4 +101,3 @@ else
     cd ..
 fi
 
-echo "No olvides activar el watcher de Sass"
