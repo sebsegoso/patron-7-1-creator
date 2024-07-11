@@ -26,3 +26,44 @@ Luego ejecuta el script
 ./script.sh
 ```
 
+## Estructura de carpetas creadas
+
+### Con patrón 7-1 usanso Sass
+
+```
+.
+├── assets
+│   ├── css
+│   ├── img
+│   ├── js
+│   └── sass
+│       ├── abstracts
+│       │   └── _abstracts.scss
+│       ├── base
+│       │   └── _base.scss
+│       ├── components
+│       │   └── _components.scss
+│       ├── layout
+│       │   └── _layout.scss
+│       ├── pages
+│       │   └── _pages.scss
+│       ├── shame
+│       │   └── _shame.scss
+│       ├── themes
+│       │   └── _themes.scss
+│       └── vendors
+│           └── _vendors.scss
+│       ├── main.scss
+└── index.html
+```
+### Sólo con CSS
+
+```
+.
+├── assets
+│   ├── css
+│       ├── style.css
+│   ├── img
+│   ├── js
+└── index.html
+```
