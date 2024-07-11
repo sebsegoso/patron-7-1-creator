@@ -4,11 +4,13 @@ Este script ayuda a automatizar la creación de un proyecto con una estructura e
 
 ## Dependencias
 ```
-code : para abrir vscode desde terminal
+code 
 ```
+para abrir vscode desde terminal
 ```
-git para inicializar git en el proyecto
+git 
 ```
+para inicializar git en el proyecto
 
 ## Instrucciones
 
