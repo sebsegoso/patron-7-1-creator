@@ -1,6 +1,14 @@
-# Script de Configuración de Proyecto
+# Script de Configuración de Proyecto usando el patrón 7-1
 
 Este script ayuda a automatizar la creación de un proyecto con una estructura específica de carpetas y archivos, incluyendo opciones para usar Sass con el patrón 7-1 y la inicialización de Git. También permite abrir el proyecto en Visual Studio Code al finalizar.
+
+## Dependencias
+```
+code : para abrir vscode desde terminal
+```
+```
+git para inicializar git en el proyecto
+```
 
 ## Instrucciones
 
